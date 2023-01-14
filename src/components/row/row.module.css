@@ -1,0 +1,7 @@
+.row{
+    display: grid;
+    padding: 20px;
+    max-width: 660px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}

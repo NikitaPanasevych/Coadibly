@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    height: 30px;
+    width: 200px;
+
+    border-radius: 5px;
+    border: 0;
+
+    font-size: 18px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table{
+    width: 700px;
+    height: 700px;
+
+    margin: 20px 0 20px 0;
+
+    display: grid;
+}
+
+.buttonContainer{
+    width: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: #7653FC;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    scale: 1.2;
+}

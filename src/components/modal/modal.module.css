@@ -1,0 +1,28 @@
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+
+    width: 400px;
+    height: 400px;
+
+    border-radius: 8px;
+
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal > div > span{
+    margin-top: 5px;
+}

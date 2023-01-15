@@ -1,0 +1,29 @@
+
+.table{
+    width: 700px;
+    height: 700px;
+
+    margin: 20px 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button{
+    background-color: #7653FC;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    scale: 1.2;
+}
+
+.buttonContainer{
+    width: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}

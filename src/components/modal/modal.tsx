@@ -18,8 +18,8 @@ export const ModalContent = ({name,id,color,year,pantone_value}:Product) => {
             >
                 <div className={styles.modal} style={{backgroundColor: color}} >
                     <div>
-                        <span>Id: {name}</span>
-                        <span>Name: {id}</span>
+                        <span>Id: {id}</span>
+                        <span>Name: {name}</span>
                         <span>Color: {color}</span>
                         <span>Year: {year}</span>
                         <span>Pantone value: {pantone_value}</span>
